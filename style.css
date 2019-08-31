@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand {
+    color: whitesmoke !important;
+    font-size: 25px !important;
+    font-family: 'Cormorant', serif;
+    font-weight: 700 !important;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#header {
+    background-image: url(./images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    float: right;
+    padding-bottom: 10px !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    color: white !important;
+
+}
+
+/* Welcome text */
+.welcome {
+    position: relative;
+    top: -90px;
+    padding: 40px 100px;
+    /* margin-top: -90px; */
+    background: #fff;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.8);
+}
+
+.welcome p {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.welcome h1 {
+    padding-bottom: 8px;
+}
+
+/* About us */
+.about {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: url(./images/about-background.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* The main reason for Parallax effect */
+    background-attachment: fixed;
+    height: 25em;
+}
+
+.about img {
+    width: 300px;
+    margin-left: 100px;
+    max-height: 50%;
+}
+
+.about .about-text {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 70px 20px;
+    margin-right: 10px;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.8);
+}
+
+.about1 {
+    margin: 50px 0;
+
+}
+
+.about1 .container {
+    margin: 30px;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+
+/*
+.about .about-text {
+    margin: 0 20px 0 0;
+    background: rgba(204, 204, 204, 0.2);
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.8);
+    padding: 75px 7px 75px 7px;
+    /* max-height: 10em; */
+
+/* Features */
+/* .section-1 {
+    text-align: center;
+    margin-top: 0 !important;
+    background: url(./images/about-background.jpg);
+
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/features-background.jpg); */
+/* background-position: center;
+background-size: cover;
+} */
+
+.feature-content {
+    position: relative;
+    top: 15px;
+
+}
+
+.item {
+    color: white;
+    padding: 5px 30px;
+
+}
+
+/*Testimonial  */
+#testimonial {
+    margin: 15px auto;
+}
+
+.testimonial-text {
+    display: flex;
+    justify-content: center;
+    color: #ac3861;
+    padding: 15px;
+}
+
+#testimonial .col-md-4 {
+    padding: 10px 30px;
+}
+
+#testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -30px;
+    border: 2px solid #ff3855;
+    box-shadow: 0px 0px 20px 1px #ff3855;
+}
+
+#testimonial i {
+    color: #00acee;
+}
+
+.review {
+    padding-left: 15px;
+    font-size: 1em;
+    padding: 10px 10px 10px 30px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2)
+}
+
+/* Footer */
+
+footer {
+    margin-top: 80px;
+    padding: 50px 40px;
+    color: white;
+    background: url(./images/footer-background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact_info {
+    line-height: 3px;
+}
+
+footer hr {
+    margin: 15px auto;
+    width: 80%;
+    border-top: 2px solid white;
+    /* color: white !important; */
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+.h {
+    margin: 5px;
+}
+
+.h:hover {
+    color: #ff3855;
+}
